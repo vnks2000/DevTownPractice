@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Tables and tags</title>
+    <style>
+        table,th,td{
+            border: 10px solid black;
+            border-collapse: collapse;
+        }
+    </style>
+</head>
+    <body>
+
+        <!--Input Tags-->
+        <Label>UserName:</Label>
+        <input  type="text"  placeholder="Please enter UserName" required/>
+        <br/>
+        <br/> 
+        <Label>Password : &nbsp;</Label>
+        <input  type="password"  placeholder="Please enter ur Password" required/>
+        <br/>
+        <br/>  
+        <Label>Gender : &nbsp;&nbsp;</Label>
+        <input  type="radio" name="gender" />Male
+        <input  type="radio" name="gender" >FeMale</input>
+        <input  type="radio" name="gender"/><label>Transgender</label>
+        <br/>
+        <br/>  
+       <hr/>
+        <center>
+        <table border="5" style="border-collapse : collapse">
+            <!--tables -->
+        <tr>
+            <th>Company Name</th>
+            <th>Mail Id</th>
+            <th>Phone No</th>
+            <th>About Us</th>
+        </tr>    
+        <tr>
+            <!--8050279120-->
+            <!--td table data-->
+            <td colspan="4"  >abc</td>
+            <td>abc.gmail.com</td>
+            <td>+12345678</td>
+            <td>abc company</td>
+        </tr>
+        <tr>
+            <td rowspan="2"> def</td>
+            <td>def.gmail.com</td>
+            <td>+987654321</td>
+            <td>def company</td>
+        </tr>
+        <tr>
+            <td> xyz</td>
+            <td>xyz.gmail.com</td>
+            <td>+987654321</td>
+            <td>xyz company</td>
+        </tr>
+        </table>
+    </center>
+    </body>
+</html>
